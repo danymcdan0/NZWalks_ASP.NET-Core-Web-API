@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Y:\\SpartaGlobal\\Preassignment\\Udemy\\NZWalks\\NZWalks-Project\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {}
+    "C:\\Users\\danya\\Documents\\SpartaGlobal\\ASP.NET\\ASP.NET-Core-Web-API\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {}
   },
   "projects": {
-    "Y:\\SpartaGlobal\\Preassignment\\Udemy\\NZWalks\\NZWalks-Project\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {
+    "C:\\Users\\danya\\Documents\\SpartaGlobal\\ASP.NET\\ASP.NET-Core-Web-API\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Y:\\SpartaGlobal\\Preassignment\\Udemy\\NZWalks\\NZWalks-Project\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
+        "projectUniqueName": "C:\\Users\\danya\\Documents\\SpartaGlobal\\ASP.NET\\ASP.NET-Core-Web-API\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
         "projectName": "NZWalks.API",
-        "projectPath": "Y:\\SpartaGlobal\\Preassignment\\Udemy\\NZWalks\\NZWalks-Project\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
-        "packagesPath": "C:\\Users\\Danymcdano\\.nuget\\packages\\",
-        "outputPath": "Y:\\SpartaGlobal\\Preassignment\\Udemy\\NZWalks\\NZWalks-Project\\NZWalks\\NZWalks.API\\obj\\",
+        "projectPath": "C:\\Users\\danya\\Documents\\SpartaGlobal\\ASP.NET\\ASP.NET-Core-Web-API\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
+        "packagesPath": "C:\\Users\\danya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danya\\Documents\\SpartaGlobal\\ASP.NET\\ASP.NET-Core-Web-API\\NZWalks\\NZWalks.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Danymcdano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\danya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,7 +73,23 @@
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[6.30.1, )"
+              "version": "[6.31.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -84,7 +97,7 @@
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.30.1, )"
+              "version": "[6.31.0, )"
             }
           },
           "imports": [
@@ -106,7 +119,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
